@@ -14,3 +14,10 @@ int main() {
   cout << firstOccurance("codemama", "ostad") << endl;
   return 0;
 }
+
+/*
+Complexity:
+Time: O(N*M), where N is the size of the haystack and M is the size
+      of the needle to be searched.
+Space: O(1)
+*/
