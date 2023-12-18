@@ -8,7 +8,7 @@ using namespace std;
 
 string shuffleString(string s, vector<int> &indices) {
   string ans = s;
-  for (int i = 0; i < indices.size(); i++) {
+  for (int i = 0; i < indices.size(); i++) { // O(n)
     ans[indices[i]] = s[i];
   }
   return ans;
@@ -20,3 +20,9 @@ int main() {
   cout << shuffleString(s, indices) << endl;
   return 0;
 }
+
+/*
+Complexity:
+Time: O(n), where n is the length of `s` or `indices`
+Space: O(n)
+*/
