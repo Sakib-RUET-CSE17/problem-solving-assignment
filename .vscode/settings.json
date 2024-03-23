@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        ".env": "plaintext",
+        "*.twig": "twig",
+        "*.asm": "masm",
+        "iostream": "cpp"
+    }
+}
